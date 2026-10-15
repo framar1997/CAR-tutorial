@@ -105,7 +105,7 @@ results <- car_analyze_trial(
 print(results)
 ```
 
-`L = 199` denotes **198 additional allocations plus the observed allocation**, not 199 simulated clinical trials. `B = 49` denotes 49 bootstrap samples used to estimate the bootstrap variance. The small values in the introductory example are for illustration; more accurate Monte Carlo approximation requires larger values. For a completed trial, supply the **actual recorded allocation**, and use the rule and settings that generated it—do not generate a replacement allocation after observing the responses.
+`L = 199` denotes **199 additional allocations plus the observed allocation**, not 199 simulated clinical trials. `B = 49` denotes 49 bootstrap samples used to estimate the bootstrap variance. The small values in the introductory example are for illustration; more accurate Monte Carlo approximation requires larger values. For a completed trial, supply the **actual recorded allocation**, and use the rule and settings that generated it—do not generate a replacement allocation after observing the responses.
 
 ### Selecting covariates for design and analysis
 
